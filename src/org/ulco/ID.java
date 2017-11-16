@@ -3,25 +3,22 @@ package org.ulco;
 public class ID {
     static public int ID = 0;
     private static ID INSTANCE = null;
-    private ID(){
 
+    private ID() {
     }
 
-    public int currentId(){
+    public int currentId() {
         return ID;
     }
 
-    public int nextId(){
+    public int nextId() {
         return ++ID;
     }
 
-    private static ID getInstance(){
-        if (INSTANCE ==null){
+    public static ID getInstance() {
+        if (INSTANCE == null) {
             INSTANCE = new ID();
         }
         return INSTANCE;
     }
-
-
-
 }

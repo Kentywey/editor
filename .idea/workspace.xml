@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee73518-0376-4a38-83e7-9b8b15cad9f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/ulco/ID.java" afterPath="$PROJECT_DIR$/src/org/ulco/ID.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,13 +40,13 @@
       <file leaf-file-name="ID.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/ulco/ID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="324">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -654,7 +653,7 @@
       <updated>1510567023439</updated>
       <workItem from="1510567026767" duration="691000" />
       <workItem from="1510748084936" duration="9368000" />
-      <workItem from="1510834181311" duration="5435000" />
+      <workItem from="1510834181311" duration="5944000" />
     </task>
     <servers />
   </component>
@@ -688,7 +687,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15494000" />
+    <option name="totallyTimeSpent" value="16003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
@@ -1220,13 +1219,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ulco/ID.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="324">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
