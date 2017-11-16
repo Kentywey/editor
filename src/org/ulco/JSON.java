@@ -1,19 +1,23 @@
 package org.ulco;
 
+import java.lang.reflect.Constructor;
+
 public class JSON {
     static public GraphicsObject parse(String json) {
-        GraphicsObject o = null;
+        Object o = null;
         String str = json.replaceAll("\\s+", "");
         String type = str.substring(str.indexOf("type") + 5, str.indexOf(","));
 
-        if (type.compareTo("square") == 0) {
-            o = new Square(str);
-        } else if (type.compareTo("rectangle") == 0) {
-            o = new Rectangle(str);
-        } else if (type.compareTo("circle") == 0) {
-            o = new Circle(str);
+        type = "org.ulco." + type.substring(0, 1).toUpperCase() + type.substring(1);
+
+        try {
+            Class<?> newClasse = Class.forName(type);
+            Constructor<?> constructor = newClasse.getConstructor(String.class);
+            o = constructor.newInstance(str);
+        }catch (Exception e){
+            System.out.println(e);
         }
-        return o;
+        return (GraphicsObject) o;
     }
 
     static public Group parseGroup(String json) {
